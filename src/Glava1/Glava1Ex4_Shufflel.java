@@ -1,4 +1,4 @@
-package package_Glava_1;
+package Glava1;
 public class Glava1Ex4_Shufflel {
     public static void main(String[] args){
         int x = 3;

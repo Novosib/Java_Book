@@ -1,4 +1,4 @@
-package package_Glava_1;
+package Glava1;
 public class Glava1Ex2_99Battles_inBook {
     public static void main(String[] args){
         int num = 10; //начальное количество бутылок

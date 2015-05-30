@@ -1,4 +1,4 @@
-package package_Glava_1;
+package Glava1;
 public class Glava1Ex2_99Battles {
     public static void main(String[] args){
         int Repeat = 1; // показывает текущий номер повторения песни

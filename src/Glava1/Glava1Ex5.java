@@ -1,4 +1,4 @@
-package package_Glava_1;
+package Glava1;
 public class Glava1Ex5 {
     public static void main (String[] args){
         int x = 5;

@@ -1,4 +1,4 @@
-package package_Glava_1;
+package Glava1;
 
 public class Glava1Ex3_GeneratorWord {
     public static void main (String[] args){
