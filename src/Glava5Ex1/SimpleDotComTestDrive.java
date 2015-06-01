@@ -10,7 +10,7 @@ public class SimpleDotComTestDrive {
         int[] locations1 = {2,3,4}; //Задаем целочисленный массив из трёх чисел
         String UserGuess1 = "2";//Имитируем вариант, введенный пользователем
         
-        SimpleDocCom Test1 = new SimpleDotCom(); //Создаем объект-сайт
+        SimpleDotCom Test1 = new SimpleDotCom(); //Создаем объект-сайт
         Test1.setLocationCells(locations1); //Вызываем сеттер для задания ячеек сайта
         result = Test1.checkYourself(UserGuess1);//Вычисляем результат проверки варианта пользователяЫ
         if (result.equals("Попал")){ //Проверяем итог теста
@@ -34,7 +34,7 @@ public class SimpleDotComTestDrive {
         int[] locations2 = {2}; //Задаем целочисленный массив из трёх чисел
         String UserGuess2 = "2";//Имитируем вариант, введенный пользователем
         
-        SimpleDocCom Test2 = new SimpleDotCom(); //Создаем объект-сайт
+        SimpleDotCom Test2 = new SimpleDotCom(); //Создаем объект-сайт
         Test2.setLocationCells(locations2); //Вызываем сеттер для задания ячеек сайта
         result = Test2.checkYourself(UserGuess2);//Вычисляем результат проверки варианта пользователяЫ
         if (result.equals("Потопил")){ //Проверяем итог теста
@@ -52,13 +52,13 @@ public class SimpleDotComTestDrive {
         System.out.println("Анализ хода выдал: " + result);
         System.out.println("Результат теста: " + testResult);
        
-         //---------Тест №3: Сайт {2,3,4}, ход "1", результат "Потопил" 
+         //---------Тест №3: Сайт {2,3,4}, ход "1", результат "Мимо" 
         System.out.println();
         System.out.println("Начало теста ...");
         int[] locations3 = {2,3,4}; //Задаем целочисленный массив из трёх чисел
         String UserGuess3 = "1";//Имитируем вариант, введенный пользователем
         
-        SimpleDocCom Test3 = new SimpleDotCom(); //Создаем объект-сайт
+        SimpleDotCom Test3 = new SimpleDotCom(); //Создаем объект-сайт
         Test3.setLocationCells(locations3); //Вызываем сеттер для задания ячеек сайта
         result = Test3.checkYourself(UserGuess3);//Вычисляем результат проверки варианта пользователяЫ
         if (result.equals("Мимо")){ //Проверяем итог теста
@@ -77,4 +77,4 @@ public class SimpleDotComTestDrive {
         System.out.println("Результат теста: " + testResult);
         
     }//main
-}//
+}//class
