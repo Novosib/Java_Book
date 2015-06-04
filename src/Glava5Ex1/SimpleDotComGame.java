@@ -12,6 +12,7 @@ public class SimpleDotComGame {
         while (isAlive == true) {
             String guess = helper.getUserInput("Введите число");//Получаем строковой вариант, вводимый пользователем
             String result = theDotCom.checkYourself(guess);//Проверяем введенный вариант
+            System.out.println(result);
             numOfGuess++;//Инкреминируем количество попыток
             if (result.equals("Потопил")){
                 isAlive = false;
