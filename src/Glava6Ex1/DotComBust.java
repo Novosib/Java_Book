@@ -17,7 +17,7 @@ public class DotComBust {
         dotComList.add(two);
         dotComList.add(three);
         System.out.println("Ваша цель - потопить три ''сайта'' :");
-        System.out.println(one.name + ", " + two.name + ", " + three.name);
+        System.out.println(one.getName() + ", " + two.getName() + ", " + three.getName());
         System.out.println("Попытайтесь потопить их за минимальное количество ходов");
         
         for (DotCom d : dotComList){//повторяем с каждым объектом DotCom в списке
