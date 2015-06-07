@@ -9,7 +9,10 @@ public class DotCom {
     }
     public void setName(String n){//сеттер для задания имени "сайта"
         name = n;
-    }    
+    }
+    public String getName(){//геттер для получения имени "сайта"
+        return name;
+    } 
     public String checkYourself (String userInput){
         String result = "Мимо";
         int index = locationCells.indexOf(userInput);//Проверяем, содержится userInput в коллекции locationCells
