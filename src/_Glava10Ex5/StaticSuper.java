@@ -1,4 +1,4 @@
-package Glava10Ex5;
+package _Glava10Ex5;
 public class StaticSuper {
     static {
         System.out.println("Родительский статический блок");

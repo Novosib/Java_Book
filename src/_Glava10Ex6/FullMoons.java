@@ -1,4 +1,4 @@
-package Glava10Ex6;
+package _Glava10Ex6;
 
 import java.util.Calendar;
 import static java.lang.System.out;

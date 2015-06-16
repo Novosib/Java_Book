@@ -1,4 +1,4 @@
-package Glava10Ex5;
+package _Glava10Ex5;
 public class StaticTest extends StaticSuper{
     static int rand = (int) (Math.random() * 6); 
     static{

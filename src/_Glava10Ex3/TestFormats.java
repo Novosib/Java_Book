@@ -1,4 +1,4 @@
-package Glava10Ex3;
+package _Glava10Ex3;
 public class TestFormats {
     public static void main(String[] args) {
         String s1 = String.format("%,d; %,.3f", 1000, 1000000.12345678);

@@ -1,4 +1,4 @@
-package Glava10Ex4;
+package _Glava10Ex4;
 import java.util.Calendar;
 public class CalendarTest {
     public static void main(String[] args) {

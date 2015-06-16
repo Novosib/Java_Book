@@ -1,4 +1,4 @@
-package Glava10Ex1;
+package _Glava10Ex1;
 public class TestOfModificators {
     public static void main(String[] args) {
         Foo f0 = new Foo();

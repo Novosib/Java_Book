@@ -1,4 +1,4 @@
-package Glava10Ex1;
+package _Glava10Ex1;
 public class Foo {
     static int x;
     public void go(){
