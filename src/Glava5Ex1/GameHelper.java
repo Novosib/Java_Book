@@ -10,6 +10,7 @@ public class GameHelper {
             inputLine = is.readLine();
             if (inputLine.length() == 0) return null;
         } catch (IOException e){
+            System.out.println("Попали в исключение в классе GameHelper: ошибка ввода/вывода");
             System.out.println("IOException: " + e);
         }//catch
         return inputLine;
