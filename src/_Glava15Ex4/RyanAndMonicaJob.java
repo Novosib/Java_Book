@@ -19,6 +19,7 @@ public class RyanAndMonicaJob implements Runnable{
 
     public void run() {
         for(int i = 0; i < 10; i++){
+            System.out.println(Thread.currentThread().getName());
             makeWithdrawal(10);
             
             if (account.getBalance() < 0){
@@ -30,7 +31,7 @@ public class RyanAndMonicaJob implements Runnable{
         }//for
     }//run
     
-    private void makeWithdrawal(int amount){
+    private synchronized void makeWithdrawal(int amount){//synchronized - значит, что этот методможет одновременно выполняться только в одном потоке!
         if(account.getBalance() >= amount){
             System.out.println(Thread.currentThread().getName() + " Собирается снять деньги " + account.getBalance());
             try {
